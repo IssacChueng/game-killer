@@ -2,6 +2,8 @@ package com.jeff.gamekiller.model;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 public class Goods {
 
@@ -12,4 +14,6 @@ public class Goods {
     private Integer goodsType;
 
     private Integer gameId;
+
+    private BigDecimal price;
 }
