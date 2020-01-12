@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.110.131.232:3654/gamelib
+    username: jeffrey
+    password: Hsue3@dshdu43#
