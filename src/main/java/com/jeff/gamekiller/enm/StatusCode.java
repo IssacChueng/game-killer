@@ -1,4 +1,4 @@
-package com.jeff.gamekiller.enumer;
+package com.jeff.gamekiller.enm;
 
 public enum StatusCode {
     OK(0),
