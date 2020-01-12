@@ -1,2 +1,7 @@
 server:
-  port: 8080
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://47.110.131.232:3654/gamelib
+    username: jeffrey
+    password: Hsue3@dshdu43#
