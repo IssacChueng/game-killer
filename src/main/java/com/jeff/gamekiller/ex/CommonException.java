@@ -1,6 +1,6 @@
-package com.jeff.gamekiller;
+package com.jeff.gamekiller.ex;
 
-import com.jeff.gamekiller.enumer.StatusCode;
+import com.jeff.gamekiller.enm.StatusCode;
 import lombok.Data;
 
 @Data

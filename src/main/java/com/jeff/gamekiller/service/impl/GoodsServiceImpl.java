@@ -1,8 +1,8 @@
 package com.jeff.gamekiller.service.impl;
 
-import com.jeff.gamekiller.CommonException;
+import com.jeff.gamekiller.ex.CommonException;
 import com.jeff.gamekiller.dao.GoodsMapper;
-import com.jeff.gamekiller.enumer.StatusCode;
+import com.jeff.gamekiller.enm.StatusCode;
 import com.jeff.gamekiller.service.GoodsService;
 import org.springframework.stereotype.Service;
 
