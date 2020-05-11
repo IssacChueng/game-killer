@@ -25,9 +25,9 @@ public class GoodsServiceImpl implements GoodsService {
 
     @Override
     public Integer goodsBuy(Integer goodsId, Integer count) {
-        if (count <= 0) {
+        /*if (count <= 0) {
             throw new CommonException("", StatusCode.NO);
-        }
+        }*/
         int updateCount = goodsMapper.updateCount(goodsId, count);
         if (updateCount <= 0) {
             throw new CommonException("", StatusCode.NO);
