@@ -1,6 +1,6 @@
 package com.jeff.gamekiller.dto;
 
-import com.jeff.gamekiller.enumer.StatusCode;
+import com.jeff.gamekiller.enm.StatusCode;
 import lombok.Builder;
 import lombok.Data;
 
